@@ -45,7 +45,7 @@ items:
           kind: ImageStreamTag
           name: php:8.0-ubi8
           namespace: openshift
-      type: dockerStrategy
+      type: sourceStrategy
     triggers:
     - github:
         secret: VDgrFU8FfXUEjkyKBMks
