@@ -44,6 +44,7 @@ items:
         from:
           kind: ImageStreamTag
           name: php:8.0-ubi8
+          namespace: openshift
     triggers:
     - github:
         secret: VDgrFU8FfXUEjkyKBMks
